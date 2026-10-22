@@ -90,10 +90,6 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="portrait__meta">
-              <span className="portrait__chip">Django · DRF</span>
-              <span className="portrait__chip portrait__chip--alt">AWS · Realtime</span>
-            </div>
           </div>
         </motion.div>
       </div>

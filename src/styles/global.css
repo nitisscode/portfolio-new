@@ -553,43 +553,6 @@ p {
   color: var(--accent);
 }
 
-.portrait__meta {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -0.15rem;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  gap: 0.45rem;
-  flex-wrap: wrap;
-  pointer-events: none;
-}
-
-.portrait__chip {
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 0.4rem 0.7rem;
-  border-radius: 999px;
-  color: var(--text);
-  background: color-mix(in srgb, var(--surface) 88%, transparent);
-  border: 1px solid var(--border);
-  backdrop-filter: blur(10px);
-  box-shadow: var(--shadow);
-}
-
-.portrait__chip--alt {
-  color: #04110f;
-  background: var(--accent);
-  border-color: transparent;
-}
-
-[data-theme='light'] .portrait__chip--alt {
-  color: #f5fffd;
-}
-
 .hero__scroll {
   position: absolute;
   bottom: 1.75rem;
@@ -1228,10 +1191,6 @@ p {
 
   .portrait__frame {
     transform: none;
-  }
-
-  .portrait__meta {
-    bottom: 0.2rem;
   }
 
   .hero__name {
