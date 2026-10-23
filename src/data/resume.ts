@@ -98,13 +98,13 @@ export const experience = [
 
 export const education = [
   {
-    degree: 'M.C.A',
+    degree: 'Masters — Computer Applications',
     school: 'Amity University Online',
     period: '07/2025 – Present',
     location: 'Noida',
   },
   {
-    degree: 'B.A',
+    degree: 'Bachelors — English Literature',
     school: 'Sido Kanhu Murmu University',
     period: '07/2021 – 06/2024',
     location: 'Dumka',
